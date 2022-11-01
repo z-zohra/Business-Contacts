@@ -1,0 +1,45 @@
+<%- include('partials/header'); -%>
+<%- include('partials/main_nav'); -%>
+<style>
+   Body{
+       background-image: url('./Assets/Images/BPcontact.png');
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed; 
+   }
+</style>  
+       <div class="Contact Information">
+         <div> Name: Zohratul Zannat </div>
+           <div>Contact Information</div><br>
+           <p>Zzannat@my.centennialcollege.ca</p>
+
+       </div>
+
+   <div class="Form">
+       <form method="POST" action="/submit">
+           <div class="Form Input">
+               <label for="first name">First Name :</label>
+               <input type="text" name="firstName" placeholder="First Name" required><br>
+
+               <label for="last name">Last Name :</label>
+               <input type="text" name="lastName" placeholder="Last Name" required><br>
+
+               <label for="phone">Phone :</label>
+               <input type="text" name="phone" placeholder="Phone" required><br>
+
+               <label for="email">Email :</label>
+               <input type="text" name="email" placeholder="Email" required><br>
+
+               <label for="message">Message :</label>
+               <input type="textarea" name="message" placeholder="Message" required><br>
+
+               <input type="submit" value="Submit" class="accordion"/>
+           </div>
+       </form>
+   </div>
+
+</div>
+
+
+
+

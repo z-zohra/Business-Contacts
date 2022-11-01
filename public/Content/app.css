@@ -1,0 +1,32 @@
+/* File name:app.css 
+ Student’s Name:Gayatrhi Srikanti 
+ StudentID: 301181090
+ Date: 06-Oct-2022*/
+ #GS{
+    width: 150px;
+    height: 80px;
+    border-radius: 8px;
+}
+#mypic{
+    width: 280px;
+    height: 280px;
+    border-radius: 8px;
+}
+
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    color:white;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    color:white;
+  }
+
+
+
